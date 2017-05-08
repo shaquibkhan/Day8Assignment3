@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hide_Effects</title>
+	<!-- Include the jQuery library -->	
+<script src="jquery-3.0.0.min.js"></script>
+<style type="text/css">
+	h1{
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+<h1>All the  input elements within a form are hidden</h1> 
+
+<form id="demo_form">
+FirstName<input type="text" name="firstname" placeholder="Your name"><br>
+LastName<input type="text" name="firstname" placeholder="Your name"><br>
+<button>Submit</button>
+</form>
+
+<script>
+// hide() applied on id attribute of form..	
+$('#demo_form').hide();			
+</script>
+</body>
+</html>
